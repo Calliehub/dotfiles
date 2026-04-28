@@ -36,6 +36,9 @@ if [[ ! "${prompt_colors[@]}" ]]; then
   elif [[ "$USER" == "root" ]]; then
     # logged in as root
     prompt_colors[0]="35"
+  elif [[ `hostname` == "dockclaude" ]]; then
+    prompt_colors[0]="31"
+    prompt_colors[1]="31"
   fi
 fi
 
