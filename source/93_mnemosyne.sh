@@ -25,4 +25,6 @@ if [ `hostname` == "mnemosyne" ]; then
   # For pkgconf to find zlib you may need to set:
   export PKG_CONFIG_PATH="/opt/homebrew/opt/zlib/lib/pkgconfig"
 
+  export PATH=$PATH:/Users/c.tweney/.local/bin
+
 fi
